@@ -1,6 +1,6 @@
 {
   "name": "multiply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
   "homepage": "https://github.com/kevinpagtakhan/calculator-js/tree/main/packages/multiply#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "add": "^0.1.0"
+    "add": "^0.2.0"
   }
 }
