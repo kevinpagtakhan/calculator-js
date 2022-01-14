@@ -2,6 +2,6 @@
 
 module.exports = subtract;
 
-function subtract() {
-    // TODO
+function subtract(a, b) {
+  return a - b;
 }
