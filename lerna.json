@@ -7,8 +7,5 @@
     "version": {
       "conventionalCommits": true
     }
-  },
-  "changelogPreset": {
-    "name": "conventionalcommits"
   }
 }
