@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/calculator@1.2.0...@kp-test/calculator@1.2.1) (2022-01-14)
+
+
+### Bug Fixes
+
+* access ([4f0f032](https://github.com/kevinpagtakhan/calculator-js/commit/4f0f0327f105f5c206b32ca1d9b15ee542fd927e))
+
+
+
+
+
 # 1.2.0 (2022-01-14)
 
 
