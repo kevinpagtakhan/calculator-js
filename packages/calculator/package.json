@@ -28,5 +28,8 @@
     "@kp-test/divide": "^0.0.3",
     "@kp-test/multiply": "^2.0.4",
     "@kp-test/subtract": "^0.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

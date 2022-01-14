@@ -25,5 +25,8 @@
   },
   "dependencies": {
     "@kp-test/add": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
