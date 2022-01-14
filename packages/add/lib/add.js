@@ -2,6 +2,6 @@
 
 module.exports = add;
 
-function add() {
-    // TODO
+function add(a, b) {
+  return a + b;
 }
