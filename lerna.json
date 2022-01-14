@@ -5,8 +5,10 @@
   "version": "independent",
   "command": {
     "version": {
-      "conventionalCommits": true,
-      "changelogPreset": "conventional-changelog-conventionalcommits"
+      "conventionalCommits": true
     }
+  },
+  "changelogPreset": {
+    "name": "conventionalcommits"
   }
 }
