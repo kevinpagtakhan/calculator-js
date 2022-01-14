@@ -22,5 +22,11 @@
   },
   "bugs": {
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
+  },
+  "dependencies": {
+    "add": "^0.1.0",
+    "subtract": "^0.1.0",
+    "multiply": "^0.0.1",
+    "divide": "^0.0.1"
   }
 }

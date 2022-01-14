@@ -1,7 +1,13 @@
 'use strict';
 
-module.exports = calculator;
+const { add } = require('add');
+const { subtract } = require('subtract');
+const { mutiply } = require('mutiply');
+const { divide } = require('divide');
 
-function calculator() {
-    // TODO
+module.exports = {
+  add,
+  subtract,
+  mutiply,
+  divide,
 }

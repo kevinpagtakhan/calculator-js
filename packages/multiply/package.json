@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
+  },
+  "dependencies": {
+    "add": "^0.1.0"
   }
 }
