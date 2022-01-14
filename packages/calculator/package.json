@@ -1,6 +1,6 @@
 {
   "name": "@kp/calculator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
   "homepage": "https://github.com/kevinpagtakhan/calculator-js/tree/main/packages/calculator#readme",
@@ -24,9 +24,9 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "@kp/add": "^2.0.0",
-    "@kp/divide": "^0.0.1",
-    "@kp/multiply": "^2.0.1",
-    "@kp/subtract": "^0.1.0"
+    "@kp/add": "^3.0.0",
+    "@kp/divide": "^0.0.2",
+    "@kp/multiply": "^2.0.2",
+    "@kp/subtract": "^0.1.1"
   }
 }

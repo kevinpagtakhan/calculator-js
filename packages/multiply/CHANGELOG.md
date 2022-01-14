@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.2 (2022-01-14)
+
+
+### Bug Fixes
+
+* rename packages ([bb9d05d](https://github.com/kevinpagtakhan/calculator-js/commit/bb9d05d8e9c56bc35e32819ae9f934a56f1602c7))
+
+
+
+
+
 ## [2.0.1](https://github.com/kevinpagtakhan/calculator-js/compare/multiply@2.0.0...multiply@2.0.1) (2022-01-14)
 
 **Note:** Version bump only for package multiply

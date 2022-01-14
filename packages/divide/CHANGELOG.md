@@ -1,0 +1,11 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 0.0.2 (2022-01-14)
+
+
+### Bug Fixes
+
+* rename packages ([bb9d05d](https://github.com/kevinpagtakhan/calculator-js/commit/bb9d05d8e9c56bc35e32819ae9f934a56f1602c7))
