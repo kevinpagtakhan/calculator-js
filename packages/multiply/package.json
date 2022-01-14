@@ -1,5 +1,5 @@
 {
-  "name": "@kp/multiply",
+  "name": "@kp-test/multiply",
   "version": "2.0.3",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
@@ -24,6 +24,6 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "@kp/add": "^3.1.0"
+    "@kp-test/add": "^3.1.0"
   }
 }

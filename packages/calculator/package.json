@@ -1,5 +1,5 @@
 {
-  "name": "@kp/calculator",
+  "name": "@kp-test/calculator",
   "version": "1.1.1",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
@@ -24,9 +24,9 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "@kp/add": "^3.1.0",
-    "@kp/divide": "^0.0.2",
-    "@kp/multiply": "^2.0.3",
-    "@kp/subtract": "^0.1.1"
+    "@kp-test/add": "^3.1.0",
+    "@kp-test/divide": "^0.0.2",
+    "@kp-test/multiply": "^2.0.3",
+    "@kp-test/subtract": "^0.1.1"
   }
 }
