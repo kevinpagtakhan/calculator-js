@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/kevinpagtakhan/calculator-js/compare/add@0.2.0...add@1.0.0) (2022-01-14)
+
+
+* feat!: allow 1 addend ([78fc15a](https://github.com/kevinpagtakhan/calculator-js/commit/78fc15a0f3aae32f197f3cdcc5c1f1340a5997df))
+
+
+### BREAKING CHANGES
+
+* breaking change
+
+
+
+
+
 # [0.2.0](https://github.com/kevinpagtakhan/calculator-js/compare/add@0.1.0...add@0.2.0) (2022-01-14)
 
 
