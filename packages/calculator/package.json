@@ -1,6 +1,6 @@
 {
   "name": "calculator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
   "homepage": "https://github.com/kevinpagtakhan/calculator-js/tree/main/packages/calculator#readme",
@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "add": "^0.1.0",
-    "subtract": "^0.1.0",
-    "multiply": "^0.0.1",
-    "divide": "^0.0.1"
+    "divide": "^0.0.1",
+    "multiply": "^0.1.0",
+    "subtract": "^0.1.0"
   }
 }
