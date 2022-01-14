@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/kevinpagtakhan/calculator-js/compare/@kp/add@3.0.0...@kp/add@3.1.0) (2022-01-14)
+
+
+### Features
+
+* add 1 more addend ([1d9d44a](https://github.com/kevinpagtakhan/calculator-js/commit/1d9d44a563ead06c64aafecc625fef2dd7a1ab70))
+
+
+
+
+
 # 3.0.0 (2022-01-14)
 
 
