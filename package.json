@@ -1,0 +1,23 @@
+{
+  "name": "calculator-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinpagtakhan/calculator-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
+  },
+  "homepage": "https://github.com/kevinpagtakhan/calculator-js#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
