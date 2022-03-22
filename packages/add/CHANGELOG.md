@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.6](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/add@4.0.5...@kp-test/add@4.0.6) (2022-03-22)
+
+
+### Bug Fixes
+
+* asdf ([53463b4](https://github.com/kevinpagtakhan/calculator-js/commit/53463b4b8479da955c4241a445688bd91094a960))
+
+
+
+
+
 ## [4.0.5](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/add@4.0.4...@kp-test/add@4.0.5) (2022-03-22)
 
 
