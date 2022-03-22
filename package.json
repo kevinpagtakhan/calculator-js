@@ -20,11 +20,5 @@
   "homepage": "https://github.com/kevinpagtakhan/calculator-js#readme",
   "devDependencies": {
     "lerna": "^4.0.0"
-  },
-  "files": [
-    "packages/*/lib",
-    "packages/*/README.md",
-    "packages/*/CHANGELOG.md",
-    "packages/*/package.json"
-  ]
+  }
 }
