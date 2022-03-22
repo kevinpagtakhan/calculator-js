@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.9](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/multiply@2.0.8...@kp-test/multiply@2.0.9) (2022-03-22)
+
+**Note:** Version bump only for package @kp-test/multiply
+
+
+
+
+
 ## [2.0.8](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/multiply@2.0.7...@kp-test/multiply@2.0.8) (2022-03-22)
 
 **Note:** Version bump only for package @kp-test/multiply

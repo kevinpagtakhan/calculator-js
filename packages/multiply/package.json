@@ -1,6 +1,6 @@
 {
   "name": "@kp-test/multiply",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
   "homepage": "https://github.com/kevinpagtakhan/calculator-js/tree/main/packages/multiply#readme",
@@ -24,7 +24,7 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "@kp-test/add": "^4.0.4"
+    "@kp-test/add": "^4.0.5"
   },
   "publishConfig": {
     "access": "public"
