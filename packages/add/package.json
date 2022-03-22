@@ -18,7 +18,7 @@
     "url": "git+https://github.com/kevinpagtakhan/calculator-js.git"
   },
   "scripts": {
-    "prepublishOnly": "exit 1",
+    "prepublishOnly": "touch src/extra.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
