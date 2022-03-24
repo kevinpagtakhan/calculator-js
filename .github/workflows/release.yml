@@ -47,7 +47,5 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish release
-        run: npm run publish -- -y
+        run: GH_TOKEN=${{ secrets.GITUH_PUBLISH_TOKEN }} npm run publish -- -y
         # if: ${{ env.PRERELEASE == 'false'}}
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
