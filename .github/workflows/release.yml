@@ -1,0 +1,50 @@
+name: Publish to NPM
+
+on:
+  workflow_dispatch:
+    inputs:
+      prerelease:
+        required: true
+        options:
+        - yes
+        - no
+
+jobs:
+  build:
+    name: Publish to NPM
+    runs-on: ubuntu-latest
+    env:
+      PRERELEASE: ${{ github.event.inputs.prerelease }}
+    strategy:
+      matrix:
+        node-version: [ 12.x ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install
+        run: npm install
+
+      - name: Publish prerelease
+        run: npm run publish -- -y --conventional-prerelease
+        if: ${{ env.PRERELEASE == 'true'}}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish release
+        run: npm run publish -- -y
+        if: ${{ env.PRERELEASE == 'false'}}
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      
+
+      
