@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.1.0-alpha.2 (2022-03-24)
+
+
+### Features
+
+* asdf ([c642fe7](https://github.com/kevinpagtakhan/calculator-js/commit/c642fe7fe24bea59cac38bebb31b5e182dbbaf3a))
+
+
+
+
+
 # 4.1.0-alpha.1 (2022-03-24)
 
 
