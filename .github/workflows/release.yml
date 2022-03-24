@@ -33,9 +33,9 @@ jobs:
         run: npm install
 
       - name: Configure Git User
-      run: |
-        git config --global user.name kevinpagtakhan
-        git config --global user.email kevpagtakhan@gmail.com
+        run: |
+          git config --global user.name kevinpagtakhan
+          git config --global user.email kevpagtakhan@gmail.com
 
       - name: Publish prerelease
         run: npm run publish -- -y --conventional-prerelease
