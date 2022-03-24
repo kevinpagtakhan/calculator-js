@@ -18,7 +18,8 @@
     "url": "git+https://github.com/kevinpagtakhan/calculator-js.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "postpublish": "echo \"POST PUBLISH FOR ADDDDDD\""
   },
   "bugs": {
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
