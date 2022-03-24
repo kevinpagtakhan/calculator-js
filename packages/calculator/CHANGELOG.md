@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.4 (2022-03-24)
+
+
+### Bug Fixes
+
+* asdf ([b533e93](https://github.com/kevinpagtakhan/calculator-js/commit/b533e9370adb06132ec73c54eb9329ab577bdcb7))
+
+
+
+
+
 ## 1.4.3 (2022-03-24)
 
 
