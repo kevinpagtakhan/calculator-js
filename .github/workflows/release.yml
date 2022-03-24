@@ -34,18 +34,14 @@ jobs:
 
       - name: Publish prerelease
         run: npm run publish -- -y --conventional-prerelease
-        # if: ${{ env.PRERELEASE == 'true'}}
+        if: ${{ env.PRERELEASE == 'true'}}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish release
-        run: npm run publish -- -y
-        if: ${{ env.PRERELEASE == 'false'}}
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      
-
-      
+      # - name: Publish release
+      #   run: npm run publish -- -y
+      #   if: ${{ env.PRERELEASE == 'false'}}
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
