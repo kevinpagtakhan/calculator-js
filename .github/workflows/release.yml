@@ -49,8 +49,6 @@ jobs:
       - name: Publish release
         run: npm run publish -- -y
         # if: ${{ env.PRERELEASE == 'false'}}
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
