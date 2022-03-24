@@ -45,7 +45,7 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish release
-        run: npm run publish -- -y
+        run: npm run publish -- -y --conventional-commits
         # if: ${{ env.PRERELEASE == 'false'}}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
