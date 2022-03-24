@@ -32,16 +32,21 @@ jobs:
           git config --global user.name kevinpagtakhan
           git config --global user.email kevpagtakhan@gmail.com
 
-      # - name: Publish prerelease
-      #   run: npm run publish -- -y --conventional-prerelease
-      #   if: ${{ env.PRERELEASE == 'true'}}
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure NPM User
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+          npm whoami
 
-      - name: Publish release
-        run: npm run publish -- -y --no-verify-access
-        # if: ${{ env.PRERELEASE == 'false'}}
+      - name: Publish prerelease
+        run: npm run publish -- -y --conventional-prerelease
+        # if: ${{ env.PRERELEASE == 'true'}}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # - name: Publish release
+      #   run: npm run publish -- -y
+      #   if: ${{ env.PRERELEASE == 'false'}}
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
