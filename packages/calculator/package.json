@@ -1,6 +1,6 @@
 {
   "name": "@kp-test/calculator",
-  "version": "1.4.8-alpha.4",
+  "version": "1.4.8-alpha.5",
   "description": "> TODO: description",
   "author": "Kevin Pagtakhan <kevinp@amplitude.com>",
   "homepage": "https://github.com/kevinpagtakhan/calculator-js/tree/main/packages/calculator#readme",
@@ -24,9 +24,9 @@
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
   },
   "dependencies": {
-    "@kp-test/add": "^4.2.10-alpha.0",
+    "@kp-test/add": "^4.2.10-alpha.1",
     "@kp-test/divide": "^0.2.4",
-    "@kp-test/multiply": "^2.2.10-alpha.0",
+    "@kp-test/multiply": "^2.2.10-alpha.1",
     "@kp-test/subtract": "^0.3.6-alpha.0"
   },
   "publishConfig": {
