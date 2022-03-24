@@ -5,7 +5,9 @@
   "version": "independent",
   "command": {
     "version": {
+      "tagVersionPrefix": "v",
       "conventionalCommits": true,
+      "createRelease": "github",
       "message": "chore(release): publish"
     }
   }
