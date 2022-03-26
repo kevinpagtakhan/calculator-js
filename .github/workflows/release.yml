@@ -40,7 +40,7 @@ jobs:
           npm whoami
 
       - name: Publish prerelease
-        run: GH_TOKEN=${{ secrets.GITUH_PUBLISH_TOKEN }} npm run publish -- -y --conventional-prerelease
+        run: GH_TOKEN=${{ secrets.GITUH_PUBLISH_TOKEN }} npm run deploy -- -y --conventional-prerelease
 
       # - name: Publish release
       #   run: GH_TOKEN=${{ secrets.GITUH_PUBLISH_TOKEN }} npm run publish -- -y
