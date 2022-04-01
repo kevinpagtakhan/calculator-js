@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "postpublish": "echo \"POST PUBLISH FOR ADDDDDD\""
+    "postpublish": "echo \"POST PUBLISH FOR ADDDDDD\"",
+    "version": "echo \"I can \"write\" without double quotes\" >> file.txt"
   },
   "bugs": {
     "url": "https://github.com/kevinpagtakhan/calculator-js/issues"
