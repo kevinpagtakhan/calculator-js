@@ -6,6 +6,7 @@
   "scripts": {
     "lerna": "lerna",
     "deploy": "lerna publish",
+    "version": "git add -A",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
