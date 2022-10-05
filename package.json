@@ -6,6 +6,8 @@
   "scripts": {
     "lerna": "lerna",
     "deploy": "lerna publish",
+    "lerna:version": "lerna version",
+    "lerna:publish": "lerna publish",
     "version": "git add -A",
     "env": "node test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
