@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/subtract@0.3.6-alpha.1...@kp-test/subtract@0.3.6) (2023-07-06)
+
+**Note:** Version bump only for package @kp-test/subtract
+
+
+
+
+
 ## [0.3.6-alpha.1](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/subtract@0.3.6-alpha.0...@kp-test/subtract@0.3.6-alpha.1) (2022-03-24)
 
 
