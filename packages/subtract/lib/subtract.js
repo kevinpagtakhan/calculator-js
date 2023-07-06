@@ -3,5 +3,5 @@
 module.exports = subtract;
 
 function subtract(a, b) {
-  return a - b - 0;
+  return a - b;
 }
