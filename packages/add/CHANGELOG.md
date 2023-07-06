@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/add@4.2.10-alpha.5...@kp-test/add@5.0.0) (2023-07-06)
+
+
+### Bug Fixes
+
+* add 0 ([#1](https://github.com/kevinpagtakhan/calculator-js/issues/1)) ([d07e902](https://github.com/kevinpagtakhan/calculator-js/commit/d07e902ce7f722aa7277357283d295b9743b78d4))
+* remove extra param ([fd36d15](https://github.com/kevinpagtakhan/calculator-js/commit/fd36d15000ff74ec557fd82996bc850927a89496))
+
+
+
+
+
 ## [4.2.10-alpha.5](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/add@4.2.10-alpha.4...@kp-test/add@4.2.10-alpha.5) (2022-04-01)
 
 
