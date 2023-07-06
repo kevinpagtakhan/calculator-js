@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/calculator@2.0.0...@kp-test/calculator@2.0.1) (2023-07-06)
+
+**Note:** Version bump only for package @kp-test/calculator
+
+
+
+
+
 # [2.0.0](https://github.com/kevinpagtakhan/calculator-js/compare/@kp-test/calculator@1.4.8-alpha.10...@kp-test/calculator@2.0.0) (2023-07-06)
 
 **Note:** Version bump only for package @kp-test/calculator
